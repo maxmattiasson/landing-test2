@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --cheese-yellow: #ffd95a;
+  --aged-cheddar: #f2b441;
+  --brie-cream: #fff5dc;
+  --wine-red: #7b2c2c;
+  --bread-brown: #8c6a43;
+  --olive-green: #4c7031;
+  --bg-light: #faf9f6;
+  --bg-dark: #1e1e1e;
+  --text-dark: #2b2b2b;
+}
+header {
+  padding: 30px;
+  font: 500 38px arial;
+  text-align: center;
+  background-color: var(--aged-cheddar);
+  color: var(--brie-cream);
+}
+body {
+  background-color: var(--text-dark);
+  background-image: url(images/cheese.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+nav {
+  background-color: var(--wine-red);
+  width: 100%;
+  padding: 16px;
+}
+a {
+  text-decoration: none;
+  color: #faf9f6;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+  border-right: 3px solid var(--brie-cream);
+  padding-right: 20px;
+}
+li:nth-child(3) {
+  border-right: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  background-color: var(--aged-cheddar);
+  width: 80vw;
+  height: auto;
+  display: flex;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+.hero-right img {
+  width: 40vw;
+}
+.hero-right h2 {
+  text-align: center;
+}
+.hero-left h2 {
+  font-size: 60px;
+}
+.hero-left p {
+  max-width: 30vw;
+}
+.hero-left button {
+  background-color: var(--wine-red);
+  border: none;
+  color: var(--brie-cream);
+  padding: 20px;
+  border-radius: 30px;
+}
+footer {
+  background-color: var(--wine-red);
+  font: 500 18px arial;
+  width: 100%;
+  padding: 36px;
+  text-align: center;
+}
