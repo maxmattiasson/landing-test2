@@ -3,3 +3,4 @@ hero: minimal text C
 cta: Buy now
 badge: artisanal
 social: links
+footer: © 2025
