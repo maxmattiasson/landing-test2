@@ -1,3 +1,4 @@
 title: Cheese Site
-hero: classic text
+hero: clean main text
 cta: Read more
+social: links
