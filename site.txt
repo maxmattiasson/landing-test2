@@ -1,4 +1,5 @@
 title: Cheese Site
-hero: ✨ fancy text A
+hero: minimal text C
 cta: Buy now
+badge: artisanal
 social: links
