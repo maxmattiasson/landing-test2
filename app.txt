@@ -1,4 +1,4 @@
 title: Cheese Site
 hero: ✨ fancy text A
-cta: Read more
+cta: Buy now
 social: links
