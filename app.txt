@@ -1,4 +1,4 @@
 title: Cheese Site
-hero: clean main text
+hero: ✨ fancy text A
 cta: Read more
 social: links
