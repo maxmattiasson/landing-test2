@@ -1,5 +1,5 @@
 title: Cheese Site
-hero: minimal text C
+hero: bold text D
 cta: Buy now
 badge: artisanal
 social: links
